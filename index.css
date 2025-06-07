@@ -1,0 +1,162 @@
+body {
+    font-size: 20px;
+    font-family: sans-serif;
+    background-image: url('images/image1.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2E8B57; /* SeaGreen */
+    color: #050404;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #F0FFF0; /* Honeydew */
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 40px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 800px;
+}
+
+
+
+ .login-container {
+    margin:10px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Adjust box shadow for a subtle effect */
+    width: 50%;
+    max-width: 400px; 
+    text-align: center; 
+    opacity: 0.9; 
+    
+} 
+
+ .login-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em; }
+
+.input-group {
+    margin-bottom: 20px; /* Increased margin for better spacing */
+    text-align: left; /* Align labels to the left */
+}
+
+ .input-group label { 
+    display: block; /* Make label a block element */
+    margin-bottom: 5px;
+    font-size: 1em; /* Ensure consistent font size for labels */
+} 
+
+.input-group input {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding and border in width */
+    font-size: 1em; /* Ensure readable font size */
+} 
+
+ button {
+    background-color: #2E8B57; /* SeaGreen */
+    color: #fff;
+    padding: 12px 20px; /* Increase padding for better usability */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1em; /* Adjust font size to match button size */
+    transition: background-color 0.3s ease; /* Add transition for hover effect */
+} 
+
+button:hover {
+    background-color: #20603D; /* Darker SeaGreen */
+} 
+
+.signup-link {
+    margin-top: 20px;
+}
+
+a {
+    color: #2E8B57; /* SeaGreen */
+    text-decoration: none;
+    font-size: 1em; /* Adjust font size of the link */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.signup-container {
+            background-color: white;
+            padding: 70px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 350px;
+            
+        }
+        .signup-container h2 {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .signup-btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #26c04d;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .signup-btn:hover {
+            background-color: #13976b;
+        } 
+
+.dashboard-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.dashboard-section {
+    background-color: #F0FFF0;
+    border: 1px solid #2E8B57;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-section h2 {
+    color: #2E8B57;
+}
