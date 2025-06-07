@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-size: 20px;
     font-family: sans-serif;
@@ -44,6 +45,23 @@ main {
     margin: 20px auto;
     border-radius: 8px;
     max-width: 800px;
+=======
+  .body {
+     font-size: 20px;
+    font-family: sans-serif;
+    background-image: url('images\image2.jpg');
+    background-size: cover; 
+    
+  }
+
+.navbar{
+    background-color: #36e830; /* Red header */
+    color: #050404;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-size: 20px;
+>>>>>>> e41c51436169a6d6e4b48dedf2e89d2b58087b88
 }
 
 
@@ -68,7 +86,11 @@ main {
 .input-group {
     margin-bottom: 20px; /* Increased margin for better spacing */
     text-align: left; /* Align labels to the left */
+<<<<<<< HEAD
 }
+=======
+} */
+>>>>>>> e41c51436169a6d6e4b48dedf2e89d2b58087b88
 
  .input-group label { 
     display: block; /* Make label a block element */
@@ -86,7 +108,11 @@ main {
 } 
 
  button {
+<<<<<<< HEAD
     background-color: #2E8B57; /* SeaGreen */
+=======
+    background-color: #0b0b0b; /* Red button color */
+>>>>>>> e41c51436169a6d6e4b48dedf2e89d2b58087b88
     color: #fff;
     padding: 12px 20px; /* Increase padding for better usability */
     border: none;
@@ -97,7 +123,11 @@ main {
 } 
 
 button:hover {
+<<<<<<< HEAD
     background-color: #20603D; /* Darker SeaGreen */
+=======
+    background-color: #88839d; /* Darken button color on hover */
+>>>>>>> e41c51436169a6d6e4b48dedf2e89d2b58087b88
 } 
 
 .signup-link {
@@ -105,7 +135,11 @@ button:hover {
 }
 
 a {
+<<<<<<< HEAD
     color: #2E8B57; /* SeaGreen */
+=======
+    color: #060606;
+>>>>>>> e41c51436169a6d6e4b48dedf2e89d2b58087b88
     text-decoration: none;
     font-size: 1em; /* Adjust font size of the link */
 }
@@ -140,6 +174,7 @@ a:hover {
         .signup-btn:hover {
             background-color: #13976b;
         } 
+<<<<<<< HEAD
 
 .dashboard-container {
     display: flex;
@@ -160,3 +195,5 @@ a:hover {
 .dashboard-section h2 {
     color: #2E8B57;
 }
+=======
+>>>>>>> e41c51436169a6d6e4b48dedf2e89d2b58087b88
