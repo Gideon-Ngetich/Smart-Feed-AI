@@ -1,3 +1,51 @@
+<<<<<<< HEAD
+body {
+    font-size: 20px;
+    font-family: sans-serif;
+    background-image: url('images/image1.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2E8B57; /* SeaGreen */
+    color: #050404;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #F0FFF0; /* Honeydew */
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 40px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 800px;
+=======
   .body {
      font-size: 20px;
     font-family: sans-serif;
@@ -13,6 +61,7 @@
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     font-size: 20px;
+>>>>>>> e41c51436169a6d6e4b48dedf2e89d2b58087b88
 }
 
 
@@ -37,7 +86,11 @@
 .input-group {
     margin-bottom: 20px; /* Increased margin for better spacing */
     text-align: left; /* Align labels to the left */
+<<<<<<< HEAD
+}
+=======
 } */
+>>>>>>> e41c51436169a6d6e4b48dedf2e89d2b58087b88
 
  .input-group label { 
     display: block; /* Make label a block element */
@@ -55,7 +108,11 @@
 } 
 
  button {
+<<<<<<< HEAD
+    background-color: #2E8B57; /* SeaGreen */
+=======
     background-color: #0b0b0b; /* Red button color */
+>>>>>>> e41c51436169a6d6e4b48dedf2e89d2b58087b88
     color: #fff;
     padding: 12px 20px; /* Increase padding for better usability */
     border: none;
@@ -66,7 +123,11 @@
 } 
 
 button:hover {
+<<<<<<< HEAD
+    background-color: #20603D; /* Darker SeaGreen */
+=======
     background-color: #88839d; /* Darken button color on hover */
+>>>>>>> e41c51436169a6d6e4b48dedf2e89d2b58087b88
 } 
 
 .signup-link {
@@ -74,7 +135,11 @@ button:hover {
 }
 
 a {
+<<<<<<< HEAD
+    color: #2E8B57; /* SeaGreen */
+=======
     color: #060606;
+>>>>>>> e41c51436169a6d6e4b48dedf2e89d2b58087b88
     text-decoration: none;
     font-size: 1em; /* Adjust font size of the link */
 }
@@ -109,3 +174,26 @@ a:hover {
         .signup-btn:hover {
             background-color: #13976b;
         } 
+<<<<<<< HEAD
+
+.dashboard-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.dashboard-section {
+    background-color: #F0FFF0;
+    border: 1px solid #2E8B57;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-section h2 {
+    color: #2E8B57;
+}
+=======
+>>>>>>> e41c51436169a6d6e4b48dedf2e89d2b58087b88

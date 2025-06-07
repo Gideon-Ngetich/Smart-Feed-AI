@@ -32,4 +32,8 @@ const login = async () => {
   } catch (err) {
     console.error(err);
   }
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> e41c51436169a6d6e4b48dedf2e89d2b58087b88

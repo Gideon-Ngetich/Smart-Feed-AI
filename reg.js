@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+document.getElementById("signup-form").addEventListener("submit", function(event) {
+    event.preventDefault();
+    alert("Registration functionality is currently disabled.");
+});
+=======
     const createAccount = async (e) => {
         console.log('clicked')
         // e.preventDefault(); 
@@ -27,3 +33,4 @@
                 console.log(`Account created successfully`)
                 console.log("Account successfully created")
             }}
+>>>>>>> e41c51436169a6d6e4b48dedf2e89d2b58087b88
